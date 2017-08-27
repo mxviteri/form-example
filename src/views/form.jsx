@@ -21,7 +21,7 @@ class ReactForm extends React.Component {
           <input type="text" name="age" />
           <label htmlFor="email">Email:</label>
           <input type="text" name="email" />
-          <button className="btn btn-primary" type="submit" onClick={this.submit}>Submit</button>
+          <button type="submit" onClick={this.submit}>Submit</button>
         </form>
       );
     } else {
