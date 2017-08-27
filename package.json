@@ -1,0 +1,24 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "Sample form using React and Bootstrap for ACA Students",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel script.jsx --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxviteri/form-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "bugs": {
+    "url": "https://github.com/mxviteri/form-example/issues"
+  },
+  "homepage": "https://github.com/mxviteri/form-example#readme"
+}
