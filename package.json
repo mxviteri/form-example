@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel src/views/*.jsx --out-dir lib"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -15,10 +15,17 @@
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-browserify": "^0.5.1"
   },
   "bugs": {
     "url": "https://github.com/mxviteri/form-example/issues"
   },
-  "homepage": "https://github.com/mxviteri/form-example#readme"
+  "homepage": "https://github.com/mxviteri/form-example#readme",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
 }
