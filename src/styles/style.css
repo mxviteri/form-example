@@ -27,3 +27,11 @@ form {
 .main-img > h1 {
   line-height: 200px;
 }
+
+.beige {
+  background: beige;
+}
+
+.azure {
+  background: azure;
+}
