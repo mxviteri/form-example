@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "gulp build"
+    "build": "webpack-dev-server --inline --content-base ./lib"
   },
   "repository": {
     "type": "git",
@@ -15,17 +15,25 @@
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
     "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.5",
     "gulp": "^3.9.1",
     "gulp-babel": "^7.0.0",
-    "gulp-browserify": "^0.5.1"
+    "gulp-browserify": "^0.5.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9"
   },
   "bugs": {
     "url": "https://github.com/mxviteri/form-example/issues"
   },
   "homepage": "https://github.com/mxviteri/form-example#readme",
   "dependencies": {
+    "path": "^0.12.7",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "webpack": "^3.5.5",
+    "webpack-dev-server": "^2.7.1"
   }
 }

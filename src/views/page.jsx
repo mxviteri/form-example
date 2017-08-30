@@ -1,5 +1,11 @@
 'use strict';
 
+const React = require('react');
+const ReactDOM = require('react-dom');
+const ReactForm = require('./form.jsx');
+const styles = require('../styles/style.css');
+const bootstrap = require('../styles/external/bootstrap/bootstrap.min.css');
+
 class Page extends React.Component {
   constructor(props) {
     super(props);
@@ -24,26 +30,6 @@ class Page extends React.Component {
           </div>
         </div>
       </div>
-    );
-  }
-}
-
-class ReactForm extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
-  render() {
-    return (
-      <form>
-        <label htmlFor="name">Name:</label>
-        <input type="text" name="name" />
-        <label htmlFor="name">Age:</label>
-        <input type="text" name="age" />
-        <label htmlFor="email">Email:</label>
-        <input type="text" name="email" />
-        <button type="submit" onClick={this.submit}>Submit</button>
-      </form>
     );
   }
 }
